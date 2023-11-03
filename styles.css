@@ -1,0 +1,23 @@
+/* Ensure all pricing cards have the same height */
+.pricing-card {
+    min-height: 450px; /* Adjust this value as per your preference */
+}
+
+/* Styling for the customizable plan box */
+.customizable-card {
+    flex-basis: 100%;
+    background: #f0f0f0; /* or any other background color */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Modify button colors */
+.btn {
+    background-color: black;
+    color: white; /* Font color */
+}
+
+/* Special styling touch for the Gold plan */
+.gold-plan {
+    border: 2px solid gold;
+}
